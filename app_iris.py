@@ -19,7 +19,7 @@ with open('LRmodel.pkl', "rb") as f:
     
 
 
-@st.cache_data()
+@st.cache()
 def prediction(sepal_length_cm, sepal_width_cm, petal_length_cm, petal_width_cm):
 	# Making predictions
 	prediction = model.predict([[sepal_length_cm, sepal_width_cm, petal_length_cm, petal_width_cm]])
