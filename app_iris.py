@@ -13,7 +13,7 @@ import pickle
 
 # load the model.pkl
 # path = r"C:\Users\96546\Documents\何宇婷\学习\master\DSSI\LRmodel.pkl"
-with open(LRmodel.pkl, "rb") as f:
+with open('LRmodel.pkl', "rb") as f:
 	model = pickle.load(f)
     
     
