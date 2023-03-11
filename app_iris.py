@@ -58,11 +58,11 @@ def main():
 	sepal_length_cm = st.sidebar.slider('sepal_length_cm', 0.1, 10.0, 0.1)
 	st.write('input sepal length (cm)', sepal_length_cm)
 	sepal_width_cm = st.sidebar.slider('sepal_width_cm', 0.1, 6.0, 0.1)
-	st.write('input sepal_width_cm', sepal_width_cm)
+	st.write('input sepal width (cm)', sepal_width_cm)
 	petal_length_cm = st.sidebar.slider('petal_length_cm', 0.1, 10.0, 0.1)
-	st.write('input petal_length_cm', petal_length_cm)
+	st.write('input petal length (cm)', petal_length_cm)
 	petal_width_cm = st.sidebar.slider('petal_width_cm', 0.1, 5.0, 0.1)
-	st.write('input petal_width_cm', petal_width_cm)
+	st.write('input petal width (cm)', petal_width_cm)
 
 
    ###################### create a button to predict on UI ##############
